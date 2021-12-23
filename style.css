@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    background-color: wheat ;
+    font-size: 25px;
+    align-items: center;
+}
+body{
+    padding: 0 15vw 10px 15vw;    
+}
+div{
+    margin-top: 10px;
+    text-align: left;
+    align-items: center;
+}
+p{
+    padding-top: 10px;
+}
+.persona{
+    padding-left: 20vw;
+}
+.papildus{
+    padding-left: 2vw;
+    border: 2px solid wheat;
+}
+.papildus:hover{
+    border: 2px solid rgb(136, 108, 57);
+}
+ tr, td{
+    width: 70vw;
+    border: 3px solid rgb(136, 108, 57);
+    border-collapse: collapse;
+    padding: 10px;
+}
+table{
+    display: flex;
+    align-items: center;
+    table-layout: auto;
+}
+.kolonna1{
+    width: 150px;
+}
+tr,td:hover{
+    background-color: rgba(136, 108, 57, 0.178);
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    margin: 1vw;
+}
+h1:hover{
+    color: rgb(136, 108, 57);
+    font-weight: 700;
+}
+h2{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+h3{
+    font-size: 25px;
+    text-align: center;
+    margin: 1vw;
+}
+.teksts{
+    text-align: justify;
+    display: block;
+    
+}
+.img {
+    max-width: 30vw; max-height: 30vw;
+    padding: 4px;
+    border: 3px solid wheat;
+}
+.img:hover{
+    border: 3px solid rgb(136, 108, 57);
+}
+.bildes {
+    width: 70vw;
+    max-height: 30vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+hr{
+    height:2px; border-width:0; background-color: rgb(136, 108, 57);
+    color: rgb(136, 108, 57);
+}
+progress::-webkit-progress-bar{
+    background-color: rgb(201, 190, 170);
+    border-radius: 10px;
+    height: 17px;
+}
+progress[value]::-webkit-progress-value{
+    background-color: rgb(136, 108, 57);
+    border-radius: 10px;
+    height: 17px;
+}
+progress[value]::-webkit-progress-value:hover{
+    background-color: rgb(85, 67, 32);
+}
+ul{
+    list-style: square;
+}
+li{
+   margin-top: 10px;
+}
+.bold{
+    font-style:italic;
+    font-weight: 900;
+    color: rgb(75, 53, 10);
+}
+a{
+    color: rgb(109, 81, 27);
+}
+a:hover{
+    font-weight: 550;
+    text-decoration: none;
+}
+
